@@ -5,6 +5,10 @@ Simple docker configuration for laravel
 
 * **2022-03-04**
 
+  - map tmp for easy access to **cachegrind** files
+
+* **2022-03-04**
+
   - update the xdebug.ini for profiling. In some cases use parameters `XDEBUG_PROFILE` and `XDEBUG_TRIGGER`. For example for `GET` parameters `?XDEBUG_PROFILE=1&XDEBUG_TRIGGER=1`
   - sample configuration for **VSCode** for **Listen for Xdebug** section: 
 ```
