@@ -1,7 +1,12 @@
 # docker_laravel
-Simple docker configuration for laravel
+Simple docker configuration for laravel.
+The **tmp** folder under the **docker_laravel** must be available for writing to all. For example `sudo chmod -R a+w tmp`
 
 ## Updates
+
+* **2022-03-23**
+
+  - the **tmp** folder under the **docker_laravel** must be available for writing to all. For example `sudo chmod -R a+w tmp`
 
 * **2022-03-04**
 
